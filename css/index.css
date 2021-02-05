@@ -1,0 +1,111 @@
+.wrapper {
+	background-image: url('../Utilities/images\ \(4\).jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 5rem;
+}
+
+img.nav-logo {
+	max-height: 45px;
+	min-width: 90px;
+}
+
+a.navbar-brand {
+	font-weight: 900;
+	color:rgb(3, 145, 145);
+	font-size: 1.5rem;
+}
+
+a.nav-link {
+	color: black;
+}
+
+.nav-toggler {
+	color: rgb(3, 145, 145)!important;
+	background-color:white!important;
+	opacity: .7;
+	padding: .2rem .7rem;
+}
+
+.side-nav {
+	width: 100vh;
+	z-index: 9999999;
+}
+
+nav.navbar {
+	padding: 1rem 2.6rem!important;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+#navbarResponsive {
+	display: none;
+}
+
+nav li a {
+	color: white;
+}
+
+nav ul li a:hover {
+	color: rgb(3, 145, 145);
+	margin-left: 15px;
+}
+
+.get-started {
+	color:white!important;
+	background-color: rgb(3, 145, 145);
+	border-radius: 20px;
+	padding: 0 30rem;
+	max-width: 100px;
+}
+
+.get-started:hover {
+	color: white;
+}
+
+a.nav-link {
+	margin: 0 6px;
+}
+
+.jumbotron {
+	background: transparent!important;
+	padding: 7.9rem 2rem!important;
+}
+
+button.more-info {
+	border-radius: 39%;
+	box-shadow: 0px 2px 1px -5px rgba(0, 0, 0, 0.137);
+	margin-top: 40px;
+}
+
+h1.display-4 {
+	font-weight: 700;
+	color: rgb(3, 145, 145);
+}
+
+
+@media screen and (max-width:650px){
+	h1.display-4 {
+		font-size: 2rem;
+	}
+
+	nav.navbar {
+		padding: 1rem 2rem!important;
+	}
+
+	.jumbotron {
+		background: transparent!important;
+		padding: 4.9rem 1rem!important;
+	}
+
+	.get-started {
+		border-radius: 20px;
+		padding: 0 40rem;
+		font-size: 15px;
+		text-align: center;
+		max-width: 120px;
+	}
+};
+
