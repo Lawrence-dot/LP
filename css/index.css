@@ -109,3 +109,8 @@ h1.display-4 {
 	}
 };
 
+@media screen and (max-width: 500px){
+	.jumbotron h1 {
+		font-size: 1rem!important;
+	}
+};
