@@ -11,8 +11,6 @@ img.nav-logo {
 }
 
 a.navbar-brand {
-	font-weight: 900;
-	color:rgb(3, 145, 145);
 	font-size: 1.5rem;
 }
 
@@ -51,6 +49,7 @@ nav li a {
 nav ul li a:hover {
 	color: rgb(3, 145, 145);
 	margin-left: 15px;
+	transition: all .5s ease;
 }
 
 .get-started {
@@ -59,6 +58,8 @@ nav ul li a:hover {
 	border-radius: 20px;
 	padding: 0 30rem;
 	max-width: 100px;
+	text-align: center;
+	transition: all .5s ease;
 }
 
 .get-started:hover {
@@ -78,6 +79,11 @@ button.more-info {
 	border-radius: 39%;
 	box-shadow: 0px 2px 1px -5px rgba(0, 0, 0, 0.137);
 	margin-top: 40px;
+	height: 40px!important;
+}
+
+button.more-info {
+	transition: all .5s ease;
 }
 
 h1.display-4 {
@@ -85,6 +91,25 @@ h1.display-4 {
 	color: rgb(3, 145, 145);
 }
 
+
+@media screen and (max-width: 992px){
+	.collapse {
+		margin: 0 auto!important;
+		text-align: center;
+	}
+
+	.get-started {
+		border-radius: 20px;
+		padding: 0 40rem;
+		font-size: 15px;
+		text-align: center;
+		max-width: 120px;
+		display: block;
+		margin: 0 auto!important;
+	}
+
+
+};
 
 @media screen and (max-width:650px){
 	h1.display-4 {
@@ -107,6 +132,8 @@ h1.display-4 {
 		text-align: center;
 		max-width: 120px;
 	}
+
+
 };
 
 @media screen and (max-width: 500px){
