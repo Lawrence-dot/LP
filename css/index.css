@@ -53,6 +53,10 @@ nav ul li a:hover {
 	transition: all .5s ease;
 }
 
+p.lead {
+	font-weight: 400;
+}
+
 .get-started {
 	color:white!important;
 	background-color: rgb(3, 145, 145);
@@ -103,15 +107,9 @@ h1.display-4 {
 		font-size: 2rem!important;
 	}s
 
-	.get-started {
-		border-radius: 20px;
-		padding: 0 40rem;
-		font-size: 15px;
-		text-align: center;
-		max-width: 120px;
-		display: block;
-		margin: 0 auto!important;
-	}
+	/* .get-started {
+		display: flex!important;
+	} */
 
 
 };
@@ -129,15 +127,6 @@ h1.display-4 {
 		background: transparent!important;
 		padding: 4.9rem 1rem!important;
 	}
-
-	.get-started {
-		border-radius: 20px;
-		padding: 0 40rem;
-		font-size: 15px;
-		text-align: center;
-		max-width: 120px;
-	}
-
 
 };
 
